@@ -44,7 +44,15 @@ nav a:hover {
 section {
     padding: 20px;
 }
-
+div#leftColumn {
+    clear: left;
+    float: left;
+    width: 0%;
+}
+section#rightColumn {
+    float: right;
+    width: 50%;
+}
 /* Footer styles */
 footer {
     background-color: #333;
